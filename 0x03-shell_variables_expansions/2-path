@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -d */ tail PATH . /action 
+echo $((echo $PATH | grep -on ":/" | wc -l +1 
