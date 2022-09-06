@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $((echo $PATH | grep -on ":/" | wc -l +1 
+PATH=$PATH:/action
